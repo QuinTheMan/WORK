@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>no title here</title>
+        <style>
+            body{
+                padding-left: 10%;
+                padding-right: 10%;
+                text-align: center;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            img{
+                width: 400px;
+            }
+            div{
+                font-size: 500%;
+                text-align: left;
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="jumbotron">Computer indentifacation chart</div>
+        <table style="width:100%">
+            <tr>
+                <td>Image</td>
+                <td>Name</td> 
+                <td>Perpose</td>
+            </tr>
+            <tr>
+                <td><img src="https://docs.google.com/drawings/d/1oCpt5TUrbqcTim6UMpfE2OjJOZIfrvxkWd6e3zwkUhA/pub?w=960&h=720"></td>
+                <td>Motherboard</td> 
+                <td>To tell the computer what to do.</td>
+            </tr>
+            <tr>
+                <td><img src="https://docs.google.com/drawings/d/1QaI8eObrkTi9KGDQG6VYMx3He9v24R0Xc-LS47mkgs8/pub?w=960&h=720"></td>
+                <td>Hard Drive</td> 
+                <td>To store files permently.</td>
+            </tr>
+            <tr>
+                <td><img src="https://docs.google.com/drawings/d/1aZvNmf_svGC8Suy0D_ryJxRudUHIndwOY0-6G_e5d_8/pub?w=960&h=720"></td>
+                <td>PCI</td> 
+                <td>An addon to a computer.</td>
+            </tr>
+            <tr>
+                <td>My teammate did not send me their model.</td>
+                <td>RAM</td> 
+                <td>To store files temporally.</td>
+            </tr>
+            <tr>
+
+                <td>My teammate did not send me their model.</td>
+                <td>Power Supply</td> 
+                <td>To supply a computer with power.</td>
+            </tr>
+        </table>
+    </body>
+</html>
